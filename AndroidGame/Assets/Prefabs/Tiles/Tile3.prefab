@@ -27,7 +27,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1177910522841482
 GameObject:
@@ -45,7 +45,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1721936523332078
 GameObject:
@@ -63,7 +63,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &4291560217958192
 Transform:
@@ -73,7 +73,7 @@ Transform:
   m_GameObject: {fileID: 1721936523332078}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.6, y: 1.1, z: 0}
-  m_LocalScale: {x: 0.099999994, y: 3, z: 1}
+  m_LocalScale: {x: 0.099999994, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 4826518825061406}
   m_RootOrder: 0
@@ -86,7 +86,7 @@ Transform:
   m_GameObject: {fileID: 1177910522841482}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.6, y: 1.1, z: 0}
-  m_LocalScale: {x: 0.099999994, y: 3, z: 1}
+  m_LocalScale: {x: 0.099999994, y: 5, z: 1}
   m_Children: []
   m_Father: {fileID: 4826518825061406}
   m_RootOrder: 1
@@ -99,7 +99,7 @@ Transform:
   m_GameObject: {fileID: 1060523424116452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: -0.5, z: 25}
-  m_LocalScale: {x: 1, y: 1, z: 10}
+  m_LocalScale: {x: 3, y: 1, z: 10}
   m_Children:
   - {fileID: 4291560217958192}
   - {fileID: 4609540349023786}
@@ -119,8 +119,9 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 4c75d4118907818448d177a90708895b, type: 2}
+  - {fileID: 2100000, guid: 4718e0d9aabbff246944f971c44c5c28, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -153,8 +154,9 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 4c75d4118907818448d177a90708895b, type: 2}
+  - {fileID: 2100000, guid: 4718e0d9aabbff246944f971c44c5c28, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -187,8 +189,9 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 4c75d4118907818448d177a90708895b, type: 2}
+  - {fileID: 2100000, guid: 4718e0d9aabbff246944f971c44c5c28, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
